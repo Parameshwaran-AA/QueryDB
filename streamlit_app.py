@@ -36,8 +36,8 @@ def check_password():
 if not check_password():
     st.stop()
 
-st.title("🤖 AI Database Assistant")
-st.markdown("Ask questions about your data in plain English.")
+st.title("AI Query Assistant")
+st.markdown("Query your data in plain English.")
 
 genai.configure(api_key=st.secrets["google"]["api_key"])
 
