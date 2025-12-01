@@ -39,7 +39,7 @@ if not check_password():
 
 # --- MAIN APP STARTS HERE ---
 
-st.title("🤖 AI Database Assistant")
+st.title(" AI Query Assistant")
 st.markdown("Ask questions about your data in plain English.")
 
 # 3. Configure Google Gemini
